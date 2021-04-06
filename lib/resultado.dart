@@ -57,7 +57,7 @@ class Resultado extends StatelessWidget {
             style: TextStyle(fontSize: 18)
           ),
           textColor: Colors.white,
-          color: Colors.blue[300],
+          color: Colors.blue,
           onPressed: reiniciarPerguntas
         ),
       ],
