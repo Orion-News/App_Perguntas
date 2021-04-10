@@ -41,7 +41,7 @@ class Resultado extends StatelessWidget {
           child: Text(
           fraseResultado['saudacao'],
           style: TextStyle(fontSize: 40,
-          color: Colors.deepPurple[400],
+          color: Colors.red.shade900,
             )
           )
         ),
@@ -57,7 +57,7 @@ class Resultado extends StatelessWidget {
             style: TextStyle(fontSize: 18)
           ),
           textColor: Colors.white,
-          color: Colors.deepPurple[400],
+          color: Colors.red.shade900,
           onPressed: reiniciarPerguntas
         ),
       ],
