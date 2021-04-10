@@ -87,7 +87,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Perguntas'),
-          backgroundColor: Colors.deepPurple[400],
+          backgroundColor: Colors.red.shade900,
         ),
         body: temPerguntaSelecionada ? Questionario(
           perguntas: _perguntas,
